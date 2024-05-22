@@ -1,0 +1,66 @@
+body{
+  background-color: #cecece;
+  display: auto;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+button,
+input {
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.newPost {
+  display: none;
+  flex-direction: column;
+  margin: 30px auto;
+  gap: 20px;
+  width: 50%;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.gifInp {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.gif {
+  width: 40%;
+  background-color: red;
+  padding: 10px;
+  margin-top: 3px;
+  display: flex;
+  justify-self: center;
+  margin: 40px auto;
+  z-index: 3;
+  flex-direction: column;
+}
+
+.gif div {
+  max-height: 200px;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.gif div img {
+  padding: 10px;
+  width: 80%;
+}
+
+.divMain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  z-index: 3;
+}
